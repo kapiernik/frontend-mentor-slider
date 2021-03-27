@@ -1,0 +1,39 @@
+$font-family: 'Inter', sans-serif;
+$dark-blue: hsl(240, 38%, 20%);
+$gray-blue: hsl(240, 18%, 77%);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $font-family;
+    background-image: url(/images/pattern-bg.svg);
+    background-repeat: no-repeat;
+    background-size: 330px;
+    background-position: 25px 25px;
+}
+
+.bg-bottom{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    bottom: 0;
+}
+
+.slider{
+    width: 250px;
+    position: relative;
+    top: 65px;
+    left: 60px;
+    .slider__inner{
+        img{
+            width: 250px;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 25px 30px -15px rgba(0, 0, 0, 0.5);
+        }
+    }
+}
