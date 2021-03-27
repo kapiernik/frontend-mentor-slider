@@ -7,7 +7,7 @@
 
 body {
   font-family: "Inter", sans-serif;
-  background-image: url(/images/pattern-bg.svg);
+  background-image: url(../images/pattern-bg.svg);
   background-repeat: no-repeat;
   background-size: 330px;
   background-position: center 25px;
